@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="website_category_fill_company" model="base.automation">
+            <field name="name">Select the current company as the default company for new website categories</field>
+            <field name="model_id" ref="website_sale.model_product_public_category"/>
+            <field name="state">code</field>
+            <field name="code">record['company_ids'] = env.company</field>
+            <field name="trigger">on_create</field>
+            <field name="active" eval="True"/>
+        </record>
+    </data>
+</odoo>
