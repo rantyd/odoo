@@ -1,7 +1,5 @@
 # odoo
 
-My first repository on GitHub
+I learn Odoo. Can you help me ?
 
-I love ☕, 🍕 and 🎮.
-
-That's all !
+Thanks a lot !
